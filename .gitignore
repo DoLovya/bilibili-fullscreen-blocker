@@ -1,0 +1,13 @@
+.DS_Store
+.idea/
+.vscode/
+
+*.log
+*.zip
+
+node_modules/
+dist/
+build/
+coverage/
+
+web-ext-artifacts/

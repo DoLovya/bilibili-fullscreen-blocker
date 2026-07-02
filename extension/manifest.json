@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Fullscreen Tips Blocker (Docs)",
+  "version": "1.0.1",
+  "description": "Documentation & investigation notes: browser fullscreen UI is not removable from page scripts",
+  "content_scripts": [
+    {
+      "matches": ["*://*.bilibili.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
